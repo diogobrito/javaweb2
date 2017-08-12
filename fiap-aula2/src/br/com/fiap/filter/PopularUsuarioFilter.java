@@ -32,7 +32,7 @@ public class PopularUsuarioFilter implements Filter {
 		} else{
 			user.setUltimoAcesso(cal.getTime());
 		}
-		chain.doFilter(r, resp);
+		chain.doFilter(req, resp);
 	}
 
 }

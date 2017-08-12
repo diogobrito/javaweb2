@@ -6,10 +6,10 @@ public class Login {
 	private String pass;
 	
 	
-	public String getLogin() {
+	public String getUser() {
 		return user;
 	}
-	public void setLogin(String user) {
+	public void setUser(String user) {
 		this.user = user;
 	}
 	public String getPass() {
