@@ -28,6 +28,7 @@ public class PopularUsuarioFilter implements Filter {
 			n.setPrimeiroAcesso(cal.getTime());
 			n.setUltimoAcesso(cal.getTime());
 			user = n;
+			r.getSession().setAttribute("usuario", user);
 		} else{
 			user.setUltimoAcesso(cal.getTime());
 		}
